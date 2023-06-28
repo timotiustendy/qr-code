@@ -1,0 +1,66 @@
+/* Font size (paragraph): 15px */
+
+/* - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+
+/* 
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+}
+
+.qr-section {
+  font-family: 'Outfit';
+  background-color: hsl(212, 45%, 89%);
+  height: calc(100vh - 18px);
+  display: flex;
+  justify-content: center;
+}
+
+.qr-card {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  height: min-content;
+  padding: 16px;
+  border-radius: 18px;
+  width: 250px;
+  text-align: center;
+}
+
+.qr-container {
+  border-radius: 12px;
+  width: 250px;
+}
+
+.qr-card h1 {
+  color: hsl(218, 44%, 22%);
+  margin: 22px 0 auto;
+  font-size: 20px;
+}
+
+.qr-card p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 11px; 
+  text-align: center; 
+  background-color: hsl(212, 45%, 89%);
+  height: 18px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
